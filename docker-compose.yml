@@ -1,6 +1,6 @@
 services:
   open-webui:
-    image: ${WEBUI_IMAGE:-ghcr.io/open-webui/open-webui:main}
+    image: ${WEBUI_IMAGE:-robai-webui:latest}
     container_name: open-webui
     volumes:
       - open-webui_open-webui:/app/backend/data
